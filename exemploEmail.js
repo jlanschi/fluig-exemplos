@@ -2,9 +2,9 @@ function scripttask18() {
 	
 	var dadosHTML = "";
 
-	dadosHTML +="Teste de email <br>";
-	dadosHTML += "campo1: "+ hAPI.getCardValue("campo1");
-	dadosHTML += "campo2: "+ hAPI.getCardValue("campo2");
+	dadosHTML +="Teste de email";
+	dadosHTML += "<br> campo1: "+ hAPI.getCardValue("campo1");
+	dadosHTML += "<br> campo2: "+ hAPI.getCardValue("campo2");
 
 	
 	var jsonContent={
